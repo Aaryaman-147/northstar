@@ -19,16 +19,16 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 ## 🚀 The Solution: Northstar
 **Northstar** is a structured, digital Goal Setting & Tracking Portal that eliminates these pain points. It supports the full lifecycle of employee goals—from AI-assisted creation and manager approvals to quarterly check-ins and executive analytics—while remaining intuitive, reliable, and entirely audit-ready.
 
-### ✨ Key Features (PRD Compliant)
-* **Role-Based Access Control:** Distinct workflows for Employees, Managers (L1), and Admin/HR.
-* **Smart Goal Creation:** Define targets, Thrust Areas, and Weightages (enforcing strict 100% total validation).
-* **AI Goal Generator (Bonus):** Context-aware SMART goal suggestions tailored to user roles.
-* **Approval & Locking Engine:** Managers can edit, return, or approve goals. Approved goals are cryptographically locked.
-* **Shared Departmental KPIs:** Managers can push locked company goals to multiple employees simultaneously.
-* **Quarterly Check-ins & Math Computation:** Dynamic progress tracking based on specific Units of Measurement (Min, Max, Zero-based).
-* **Immutable Audit Trail:** Complete governance logs tracking every status change, edit, and approval.
-* **Automated Escalation Engine (Bonus):** Rule-based system that scans for and flags overdue "Draft" goals.
-* **Executive Analytics (Bonus):** Interactive dashboard featuring QoQ trends, Manager Effectiveness, and Goal Distribution.
+## ✨ Key Features
+* 🔐 **Role-Based Access Control:** Distinct, secure workflows for Employees, Managers (L1), and Admin/HR.
+* 🎯 **Smart Goal Creation:** Define targets, Thrust Areas, and Weightages (enforcing a strict 100% total validation system).
+* 🤖 **AI Goal Generator (Bonus):** Context-aware SMART goal suggestions tailored instantly to user roles.
+* ✍️ **Approval & Locking Engine:** Managers can edit, return, or approve goals. Approved goals are cryptographically locked against unauthorized edits.
+* 🏢 **Shared Departmental KPIs:** Managers can push locked, high-level company goals to multiple employees simultaneously.
+* 📊 **Quarterly Check-ins & Math Engine:** Dynamic progress tracking based on specific Units of Measurement (Min, Max, Zero-based).
+* 📜 **Immutable Audit Trail:** Complete governance logs tracking every status change, edit, and approval for HR compliance.
+* 🚨 **Automated Escalation Engine (Bonus):** Rule-based system that scans for and flags overdue "Draft" goals.
+* 📈 **Executive Analytics (Bonus):** Interactive Recharts dashboard featuring QoQ trends, Manager Effectiveness, and Goal Distribution.
 
 ---
 
