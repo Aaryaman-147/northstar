@@ -15,7 +15,7 @@ export default function ManagerDashboard() {
   const [editingId, setEditingId] = useState(null);
   const [editValues, setEditValues] = useState({ target: "", weightage: "" });
   const [isPushModalOpen, setIsPushModalOpen] = useState(false);
-  const [sharedGoalData, setSharedGoalData] = useState({ title: "", uom_type: "Min", target: "" });
+  const [sharedGoalData, setSharedGoalData] = useState({ title: "", thrust_area: "Financial", uom_type: "Min", target: "" });
 
   useEffect(() => {
     fetchGoals();
@@ -84,13 +84,14 @@ export default function ManagerDashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           title: sharedGoalData.title,
+          thrust_area: sharedGoalData.thrust_area, // <-- ADD THIS LINE
           uom_type: sharedGoalData.uom_type,
           target: Number(sharedGoalData.target)
         }),
       });
       if (res.ok) {
         setIsPushModalOpen(false);
-        setSharedGoalData({ title: "", uom_type: "Min", target: "" });
+        setSharedGoalData({ title: "", thrust_area: "Financial", uom_type: "Min", target: "" });
         fetchGoals();
         toast.success("Department goal successfully pushed to all employees!");
       } else {
@@ -149,6 +150,20 @@ export default function ManagerDashboard() {
                     value={sharedGoalData.title}
                     onChange={(e) => setSharedGoalData({...sharedGoalData, title: e.target.value})}
                   />
+                </div>
+                {/* NEW THRUST AREA DROPDOWN */}
+                <div className="space-y-2">
+                  <Label>Thrust Area</Label>
+                  <select 
+                    className="flex h-10 w-full rounded-md border border-zinc-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900"
+                    value={sharedGoalData.thrust_area}
+                    onChange={(e) => setSharedGoalData({...sharedGoalData, thrust_area: e.target.value})}
+                  >
+                    <option value="Financial">Financial</option>
+                    <option value="Customer">Customer</option>
+                    <option value="Internal Process">Internal Process</option>
+                    <option value="Learning & Growth">Learning & Growth</option>
+                  </select>
                 </div>
                 <div className="space-y-2">
                   <Label>UoM Type</Label>
