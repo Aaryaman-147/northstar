@@ -32,10 +32,33 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 
 ---
 
-## 🛠️ Technology Stack
-* **Frontend:** Next.js (React), Tailwind CSS, shadcn/ui, Recharts (Data Visualization).
-* **Backend:** Python, FastAPI, SQLAlchemy.
-* **Database:** Supabase (PostgreSQL).
+## 📸 Screenshots
+
+*(Note: Replace these placeholder links with actual images of your app! Just drop your screenshots into a `/public/docs/` folder in your repo)*
+
+| Employee Dashboard | Manager Portal |
+| :---: | :---: |
+| <img src="[https://placehold.co/600x400/png?text=Employee+Dashboard](https://placehold.co/600x400/png?text=Employee+Dashboard)" alt="Employee Dashboard" width="100%"> | <img src="[https://placehold.co/600x400/png?text=Manager+Portal](https://placehold.co/600x400/png?text=Manager+Portal)" alt="Manager Portal" width="100%"> |
+
+| Executive Analytics | Admin Audit Trail |
+| :---: | :---: |
+| <img src="[https://placehold.co/600x400/png?text=Executive+Analytics](https://placehold.co/600x400/png?text=Executive+Analytics)" alt="Analytics Dashboard" width="100%"> | <img src="[https://placehold.co/600x400/png?text=Audit+Trail](https://placehold.co/600x400/png?text=Audit+Trail)" alt="Admin Logs" width="100%"> |
+
+---
+
+## 🛠️ Tech Stack
+
+**Client:** * Next.js (React)
+* Tailwind CSS
+* shadcn/ui (Radix Primitives)
+* Recharts (Data Visualization)
+* Sonner (Toast Notifications)
+
+**Server:** * Python 3.10+
+* FastAPI
+* SQLAlchemy (ORM)
+
+**Database:** * Supabase (PostgreSQL)
 
 ---
 
