@@ -1,4 +1,12 @@
-# 🌟 Northstar | Enterprise Goal Setting & Tracking Portal
+<div align="center">
+  <h1>🌟 Northstar</h1>
+  <p><b>Enterprise Goal Setting, Alignment & Governance Portal</b></p>
+  
+  [![AtomQuest Hackathon](https://img.shields.io/badge/AtomQuest-Hackathon_1.0-blueviolet?style=for-the-badge)](https://#)
+  [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+  [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+  [![Supabase](https://img.shields.io/badge/Supabase-Database-3ECF8E?style=for-the-badge&logo=supabase)](https://supabase.com/)
+</div>
 
 > **AtomQuest Hackathon 1.0 Submission**
 > An intelligent, end-to-end platform for organizational alignment, continuous performance tracking, and automated governance.
