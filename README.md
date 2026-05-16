@@ -13,6 +13,13 @@
 
 ---
 
+## 📖 Overview
+Organizations relying on manual or fragmented goal-tracking methods struggle with alignment, visibility, and accountability. Spreadsheets create blind spots, managers cannot monitor real-time progress, and employees lack clarity on how their work connects to the bigger picture.
+
+**Northstar** is a structured, digital Goal Setting & Tracking Portal that eliminates these pain points. It supports the full lifecycle of employee goals—from AI-assisted creation and manager approvals to quarterly check-ins and executive analytics—while remaining intuitive, reliable, and entirely audit-ready.
+
+---
+
 ## 📖 The Problem
 Organizations relying on manual or fragmented goal-tracking methods struggle with alignment, visibility, and accountability. Spreadsheets create blind spots, managers cannot monitor real-time progress, and employees lack clarity on how their work connects to the bigger picture.
 
