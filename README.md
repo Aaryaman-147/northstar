@@ -157,9 +157,19 @@ npm run dev
 
 ---
 
-## 🎯 Hackathon Deliverables Checklist
-- [x] **Phase 1:** Goal Creation, Validation, and Manager Approvals.
-- [x] **Phase 2:** Quarterly Check-ins and Math computations.
+## 🏆 Hackathon Context
+
+This project was built for the **AtomQuest Hackathon 1.0**. 
+
+**Deliverables Achieved:**
+- [x] **Phase 1:** Goal Creation, PRD Validations, and Manager Approvals.
+- [x] **Phase 2:** Quarterly Check-ins and accurate Math computations.
 - [x] **Reporting:** Immutable Audit Logs and CSV Exports.
 - [x] **Bonus 5.3:** Rule-based Escalation Module.
 - [x] **Bonus 5.4:** Comprehensive Analytics Module.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
