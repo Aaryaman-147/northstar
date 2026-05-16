@@ -73,3 +73,50 @@ graph TD
     Logic <-->|SQLAlchemy ORM| DB
     Escalation -->|Writes Overdue Flags| DB
     Logic -->|Triggers on Edit| Audit
+```
+
+---
+
+## 💻 Local Installation & Setup
+
+### 1. Backend Setup (FastAPI)
+Navigate to the backend directory and set up your Python environment:
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Create a `.env` file in the backend directory and add your Supabase connection string:
+```env
+DATABASE_URL="postgresql://postgres.[YOUR_PROJECT_REF]:[YOUR_PASSWORD]@aws-0-us-west-1.pooler.supabase.com:6543/postgres"
+```
+
+Start the Python server:
+```bash
+uvicorn main:app --reload
+```
+*The backend will run on `http://localhost:8000`*
+
+### 2. Frontend Setup (Next.js)
+Open a new terminal, navigate to the frontend directory, and install dependencies:
+```bash
+cd frontend
+npm install
+```
+
+Start the Next.js development server:
+```bash
+npm run dev
+```
+*The frontend will run on `http://localhost:3000`*
+
+---
+
+## 🎯 Hackathon Deliverables Checklist
+- [x] **Phase 1:** Goal Creation, Validation, and Manager Approvals.
+- [x] **Phase 2:** Quarterly Check-ins and Math computations.
+- [x] **Reporting:** Immutable Audit Logs and CSV Exports.
+- [x] **Bonus 5.3:** Rule-based Escalation Module.
+- [x] **Bonus 5.4:** Comprehensive Analytics Module.
