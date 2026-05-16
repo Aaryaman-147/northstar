@@ -108,6 +108,18 @@ graph TD
 
 ---
 
+## 🔑 Role-Based Demo Access
+
+To facilitate seamless testing for hackathon judges, this demo utilizes a **Global Navigation Architecture** rather than a hard-locked authentication wall. 
+
+Judges can experience the entire product lifecycle by using the top navigation bar to instantly switch between user personas:
+1. **Employee View (`/`):** Create goal sheets, utilize the AI generator, and submit quarterly check-ins.
+2. **Manager View (`/manager`):** Review pending goals, add feedback, push Shared KPIs, and approve/lock sheets.
+3. **Admin/HR View (`/admin`):** Run the automated Escalation Engine and export the immutable Audit Log to CSV.
+4. **CXO View (`/analytics`):** View the interactive alignment visualizer and organizational metrics.
+
+---
+
 ## 💻 Local Installation & Setup
 
 ### 1. Backend Setup (FastAPI)
