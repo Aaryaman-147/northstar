@@ -42,7 +42,7 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 
 | Executive Analytics | Admin Audit Trail |
 | :---: | :---: |
-| <img src="[https://placehold.co/600x400/png?text=Executive+Analytics](https://placehold.co/600x400/png?text=Executive+Analytics)" alt="Analytics Dashboard" width="100%"> | <img src="[https://placehold.co/600x400/png?text=Audit+Trail](https://placehold.co/600x400/png?text=Audit+Trail)" alt="Admin Logs" width="100%"> |
+| <img src="./public/analytics.png" alt="Employee Dashboard" width="100%"> | <img src="./public/audit.png" alt="Employee Dashboard" width="100%"> |
 
 ---
 
