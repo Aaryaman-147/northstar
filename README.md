@@ -38,7 +38,7 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 
 | Employee Dashboard | Manager Portal |
 | :---: | :---: |
-| <img src="./assets/manager.png" alt="Employee Dashboard" width="100%"> | | <img src="./assets/employee.png" alt="Manager Portal" width="100%"> |
+| <img src="./assets/manager.png" alt="Employee Dashboard" width="100%"> | <img src="./assets/employee.png" alt="Manager Portal" width="100%"> |
 
 | Executive Analytics | Admin Audit Trail |
 | :---: | :---: |
