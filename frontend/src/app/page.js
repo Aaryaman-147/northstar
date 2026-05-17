@@ -220,6 +220,7 @@ export default function GoalCreationDashboard() {
                     <Input 
                       id={`target-${goal.id}`} 
                       type="number" 
+                      min="0"
                       placeholder="Value"
                       value={goal.target}
                       onChange={(e) => updateGoal(goal.id, 'target', e.target.value)}
@@ -234,6 +235,7 @@ export default function GoalCreationDashboard() {
                       type="number" 
                       min="0"
                       max="100"
+                      placeholder="%"
                       value={goal.weightage}
                       onChange={(e) => updateGoal(goal.id, 'weightage', e.target.value)}
                       required
