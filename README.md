@@ -48,17 +48,23 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 
 ## 🛠️ Tech Stack
 
-**Client:** * Next.js (React)
-* Tailwind CSS
-* shadcn/ui (Radix Primitives)
-* Recharts (Data Visualization)
-* Sonner (Toast Notifications)
+## 🛠️ Tech Stack
 
-**Server:** * Python 3.10+
-* FastAPI
-* SQLAlchemy (ORM)
+### Frontend
+- Next.js
+- React
+- Tailwind CSS
+- shadcn/ui
+- Recharts
+- Sonner
 
-**Database:** * Supabase (PostgreSQL)
+### Backend
+- FastAPI
+- SQLAlchemy
+- Python 3.10+
+
+### Database
+- Supabase PostgreSQL
 
 ---
 
