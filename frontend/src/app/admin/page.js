@@ -13,7 +13,7 @@ export default function AdminAuditDashboard() {
   useEffect(() => {
     const fetchLogs = async () => {
       try {
-        const res = await fetch("http://localhost:8000/api/admin/audit-logs");
+        const res = await fetch("https://northstar-vgqa.onrender.com/api/admin/audit-logs");
         const data = await res.json();
         setLogs(data);
       } catch (error) {
@@ -51,7 +51,7 @@ export default function AdminAuditDashboard() {
   const runEscalationEngine = async () => {
     setIsRunning(true);
     try {
-      const res = await fetch("http://localhost:8000/api/admin/run-escalations", {
+      const res = await fetch("https://northstar-vgqa.onrender.com/api/admin/run-escalations", {
         method: "POST"
       });
       const data = await res.json();

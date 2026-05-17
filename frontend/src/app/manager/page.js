@@ -20,7 +20,7 @@ export default function ManagerDashboard() {
   // 1. Declare fetchGoals FIRST
   const fetchGoals = async () => {
     try {
-      const res = await fetch("http://localhost:8000/api/manager/team-goals");
+      const res = await fetch("https://northstar-vgqa.onrender.com/api/manager/team-goals");
       const data = await res.json();
       setGoals(data);
     } catch (error) {
@@ -39,7 +39,7 @@ export default function ManagerDashboard() {
 
   const updateGoal = async (id, payload) => {
     try {
-      const res = await fetch(`http://localhost:8000/api/goals/${id}`, {
+      const res = await fetch(`https://northstar-vgqa.onrender.com/api/goals/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -62,7 +62,7 @@ export default function ManagerDashboard() {
     if (!comment) return;
 
     try {
-      const res = await fetch(`http://localhost:8000/api/goals/${goalId}/comment`, {
+      const res = await fetch(`https://northstar-vgqa.onrender.com/api/goals/${goalId}/comment`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ comment })
@@ -82,7 +82,7 @@ export default function ManagerDashboard() {
   const handlePushSharedGoal = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:8000/api/manager/push-shared-goal", {
+      const res = await fetch("https://northstar-vgqa.onrender.com/api/manager/push-shared-goal", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

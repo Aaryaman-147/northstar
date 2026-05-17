@@ -27,7 +27,7 @@ export default function EmployeeDashboard() {
   useEffect(() => {
     const fetchGoals = async () => {
       try {
-        const response = await fetch("http://localhost:8000/api/goals");
+        const response = await fetch("https://northstar-vgqa.onrender.com/api/goals");
         const result = await response.json();
         if (response.ok) {
           setData(result);
@@ -56,7 +56,7 @@ export default function EmployeeDashboard() {
   const handleCheckIn = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch(`http://localhost:8000/api/goals/${selectedGoal.id}/check-in`, {
+      const res = await fetch(`https://northstar-vgqa.onrender.com/api/goals/${selectedGoal.id}/check-in`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
