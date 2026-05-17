@@ -19,6 +19,8 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 ## 🚀 The Solution: Northstar
 **Northstar** is a structured, digital Goal Setting & Tracking Portal that eliminates these pain points. It supports the full lifecycle of employee goals—from AI-assisted creation and manager approvals to quarterly check-ins and executive analytics—while remaining intuitive, reliable, and entirely audit-ready.
 
+<img src="./assets/main.png" alt="Employee Dashboard" width="100%">
+
 ## ✨ Key Features
 * 🔐 **Role-Based Access Control:** Distinct, secure workflows for Employees, Managers (L1), and Admin/HR.
 * 🎯 **Smart Goal Creation:** Define targets, Thrust Areas, and Weightages (enforcing a strict 100% total validation system).
