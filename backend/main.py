@@ -11,11 +11,12 @@ from schemas import SharedGoalSubmit
 import uuid
 from pydantic import BaseModel
 
-app = FastAPI(title="Northstar API")
+app = FastAPI()
 
+# Enable CORS for the frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["*"], # The "*" allows your live Vercel app to connect!
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
