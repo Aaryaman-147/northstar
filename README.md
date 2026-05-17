@@ -22,7 +22,7 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 ## 🔗 Live Demo
 [Launch Northstar](#)
 
-<img src="./assets/main.png" alt="Employee Dashboard" width="100%">
+![Northstar Dashboard] <img src="./assets/main.png" alt="Employee Dashboard" width="100%">
 
 ## ✨ Key Features
 * 🔐 **Role-Based Access Control:** Distinct, secure workflows for Employees, Managers (L1), and Admin/HR.
