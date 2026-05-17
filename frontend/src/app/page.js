@@ -22,7 +22,7 @@ export default function GoalCreationDashboard() {
   const generateAIGoals = async () => {
     setIsGenerating(true);
     try {
-      const res = await fetch("http://localhost:8000/api/ai/suggest-goals", {
+      const res = await fetch("https://northstar-vgqa.onrender.com/api/ai/suggest-goals", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ role: "Software Engineer" }), // Hardcoded role for demo
@@ -71,7 +71,7 @@ export default function GoalCreationDashboard() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("http://localhost:8000/api/goals/submit", {
+      const response = await fetch("https://northstar-vgqa.onrender.com/api/goals/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
