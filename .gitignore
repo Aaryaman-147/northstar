@@ -150,3 +150,5 @@ next-env.d.ts
 
 # production
 /build
+
+Update .gitignore
