@@ -48,8 +48,6 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 
 ## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack
-
 ### Frontend
 - Next.js
 - React
