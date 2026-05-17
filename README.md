@@ -20,7 +20,7 @@ Organizations relying on manual or fragmented goal-tracking methods struggle wit
 **Northstar** is a structured, digital Goal Setting & Tracking Portal that eliminates these pain points. It supports the full lifecycle of employee goals—from AI-assisted creation and manager approvals to quarterly check-ins and executive analytics—while remaining intuitive, reliable, and entirely audit-ready.
 
 ## 🔗 Live Demo
-[Launch Northstar](#)
+[Launch Northstar](#https://northstarhq.vercel.app/)
 
 <img src="./assets/main.png" alt="Employee Dashboard" width="100%">
 
