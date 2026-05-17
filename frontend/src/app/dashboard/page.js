@@ -77,14 +77,20 @@ export default function EmployeeDashboard() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-zinc-50 p-8 space-y-6">
-        <div className="max-w-6xl mx-auto space-y-4">
-          <Skeleton className="h-10 w-64" />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Skeleton className="h-40 w-full" />
-            <Skeleton className="h-40 w-full" />
-            <Skeleton className="h-40 w-full" />
+      <div className="min-h-screen bg-zinc-50 p-8">
+        <div className="mx-auto max-w-6xl space-y-6 animate-pulse">
+          {/* Skeleton Header */}
+          <div className="h-10 bg-zinc-200 rounded-md w-1/4 mb-8"></div>
+          
+          {/* Skeleton Metric Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div className="h-32 bg-zinc-200 rounded-xl"></div>
+            <div className="h-32 bg-zinc-200 rounded-xl"></div>
+            <div className="h-32 bg-zinc-200 rounded-xl"></div>
           </div>
+          
+          {/* Skeleton Table */}
+          <div className="h-64 bg-zinc-200 rounded-xl w-full"></div>
         </div>
       </div>
     );
