@@ -17,10 +17,7 @@ export default function ManagerDashboard() {
   const [isPushModalOpen, setIsPushModalOpen] = useState(false);
   const [sharedGoalData, setSharedGoalData] = useState({ title: "", thrust_area: "Financial", uom_type: "Min", target: "" });
 
-  useEffect(() => {
-    fetchGoals();
-  }, []);
-
+  // 1. Declare fetchGoals FIRST
   const fetchGoals = async () => {
     try {
       const res = await fetch("http://localhost:8000/api/manager/team-goals");
@@ -33,6 +30,12 @@ export default function ManagerDashboard() {
       setLoading(false);
     }
   };
+
+  // 2. Call it inside useEffect SECOND
+  useEffect(() => {
+    fetchGoals();
+  }, []);
+  
 
   const updateGoal = async (id, payload) => {
     try {
@@ -180,11 +183,12 @@ export default function ManagerDashboard() {
                 <div className="space-y-2">
                   <Label>Company Target</Label>
                   <Input 
-                    type="number" 
-                    required 
-                    value={sharedGoalData.target}
-                    onChange={(e) => setSharedGoalData({...sharedGoalData, target: e.target.value})}
-                  />
+  type="number" 
+  min="0" 
+  required 
+  value={sharedGoalData.target}
+  onChange={(e) => setSharedGoalData({...sharedGoalData, target: e.target.value})}
+/>
                 </div>
                 <Button type="submit" className="w-full bg-zinc-900 text-white">Push to All Employees</Button>
               </form>
@@ -224,11 +228,12 @@ export default function ManagerDashboard() {
                     <TableCell>
                       {editingId === goal.id ? (
                         <Input 
-                          type="number" 
-                          value={editValues.target} 
-                          onChange={(e) => setEditValues({...editValues, target: e.target.value})}
-                          className="w-24 h-8"
-                        />
+  type="number" 
+  min="0" 
+  value={editValues.target} 
+  onChange={(e) => setEditValues({...editValues, target: e.target.value})}
+  className="w-24 h-8"
+/>
                       ) : (
                         goal.target
                       )}
@@ -237,11 +242,13 @@ export default function ManagerDashboard() {
                     <TableCell>
                       {editingId === goal.id ? (
                         <Input 
-                          type="number" 
-                          value={editValues.weightage} 
-                          onChange={(e) => setEditValues({...editValues, weightage: e.target.value})}
-                          className="w-20 h-8"
-                        />
+  type="number" 
+  min="10" 
+  max="100" 
+  value={editValues.weightage} 
+  onChange={(e) => setEditValues({...editValues, weightage: e.target.value})}
+  className="w-20 h-8"
+/>
                       ) : (
                         `${goal.weightage}%`
                       )}
